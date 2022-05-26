@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(235, 240, 243) ;
+}
+.btn{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color:  rgb(193, 193, 250);;
+    border: 2px solid;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons{
+    text-align: center;
+}
+.preview{
+    text-align: center;
+}
+
+.textarea{
+    text-align: center;
+    
+}
+.htag{
+  color: rgb(1, 8, 12);;
+}
+
+.div{
+    font-weight: bolder;
+}

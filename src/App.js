@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React,{useState} from 'react'
+import Nav from './Components/Nav'
+import Word from './Components/Word'
+const App = () => {
+  const [mode, setmode] = useState('light')
+  const togglemode=()=>{
+  if(mode==="light"){
+    setmode("dark")
+    document.body.style.backgroundColor="grey"
+  }else{
+    setmode("light")
+    document.body.style.backgroundColor="white"
+  }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Nav mode={mode} togglemode={togglemode}/>
+      <Word  mode={mode}/>
+    </>
+  )
 }
 
-export default App;
+export default App
