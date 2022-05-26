@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Word-Analyzer/static/css/main.3e2f91ab.css",
+    "main.js": "/Word-Analyzer/static/js/main.57ba0956.js",
+    "static/js/787.f9c6f77a.chunk.js": "/Word-Analyzer/static/js/787.f9c6f77a.chunk.js",
+    "index.html": "/Word-Analyzer/index.html",
+    "main.3e2f91ab.css.map": "/Word-Analyzer/static/css/main.3e2f91ab.css.map",
+    "main.57ba0956.js.map": "/Word-Analyzer/static/js/main.57ba0956.js.map",
+    "787.f9c6f77a.chunk.js.map": "/Word-Analyzer/static/js/787.f9c6f77a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e2f91ab.css",
+    "static/js/main.57ba0956.js"
+  ]
+}
