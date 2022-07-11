@@ -46,7 +46,7 @@ const Word = (props) => {
                 <textarea onChange={change} style={{backgroundColor:props.mode==="light"?"dark":"light"}} value={text} cols="70" rows="10" placeholder='Review your text here'></textarea>
             </div>
             <div className='buttons'>
-                <button onClick={uppercase} className='btn'>UpperCase</button>
+                <button onClick={uppercase} className='btn'>UpperCasee</button>
                 <button onClick={lowercase} className='btn'>LowerCase</button>
                 <button onClick={clear} className='btn'>Clear</button>
                 <button onClick={del} className='btn'>Delete</button>
