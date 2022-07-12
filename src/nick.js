@@ -2,7 +2,7 @@ import React from 'react'
 
 const nick = () => {
   return (
-    <div>nick</div>
+    <div>ni</div>
   )
 }
 
